@@ -1,0 +1,129 @@
+/* Style the header */
+header {
+    text-align: center; /* Center-align text within the header */
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.2em;
+    color: #4d5791;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.6em;
+    color: #4d5791;
+}
+
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and font styles to the body */
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    background-color: #b4c6f0;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #4d5791;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* Style the hero section */
+div.hero {
+    background-color: #b4c6f0;
+    /*background-image: url('bg.png');*/
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 40px 0;
+    text-align: center;
+}
+
+div.hero h1 {
+    font-size: 4.2em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+div.hero h2 {
+    font-size: 1.6em;
+    color: #4d5791;
+}
+
+/* Style the main content */
+#main-content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-box {
+    margin-bottom: 20px;
+}
+
+.text-box h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Style the footer */
+footer {
+    background-color: #b4c6f0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 10px;
+        text-align: left;
+    }
+
+    nav ul {
+        text-align: center;
+        display: block;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        font-size: 1.4em;
+    }
+}
